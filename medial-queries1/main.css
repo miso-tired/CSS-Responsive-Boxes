@@ -5,9 +5,9 @@ body {
 .container {
   border: 2px solid peru;
   display: flex;
+  flex-direction: column;
   text-align: center;
   height: 100vh;
-  flex-direction: column;
 }
 
 .a {
@@ -17,8 +17,8 @@ body {
 }
 
 .b {
-  flex-grow: 3;
-  min-height: 50vh;
+  flex-grow: 2;
+  min-height: 65vh;
   border: 2px solid palevioletred;
   margin: 1em;
 }
@@ -39,7 +39,12 @@ body {
     width: 100%;
   }
 
+  .b {
+    width: 50vw;
+  }
+
   .c {
-    width: 100%;
+    width: 15vw;
+    margin-left: 1em;
   }
 }
