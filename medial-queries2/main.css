@@ -1,19 +1,23 @@
 body {
   background: papayawhip;
+  margin: 0;
+  padding: 10px;
 }
 
 .container {
     border: 2px solid peru;
     display: flex;
+    flex-direction: column;
     text-align: center;
     height: 100vh;
-    flex-direction: column;
+    width: 100%;
   }
 
 .a {
    flex-grow: 1;
    border: 2px solid palevioletred;
    margin: 1em;
+   height: 20%;
 }
 
 .b {
@@ -44,7 +48,7 @@ body {
     width: 100vw;
     height: 15vh;
   }
-  
+
   .f {
     width: 5vw;
     height: 30vh;
